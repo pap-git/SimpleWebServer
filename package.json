@@ -1,0 +1,26 @@
+{
+  "name": "simplewebserver",
+  "version": "1.0.0",
+  "description": "an simple web server",
+  "keywords": [
+    "server"
+  ],
+  "homepage": "https://github.com/pap-git/SimpleWebServer#readme",
+  "bugs": {
+    "url": "https://github.com/pap-git/SimpleWebServer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pap-git/SimpleWebServer.git"
+  },
+  "license": "MIT",
+  "author": "paphere",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "run": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

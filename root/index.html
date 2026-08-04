@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>About SimpleWebServer</title>
+    </head>
+    <body>
+        <h1>Welcome to SimpleWebServer!</h1>
+        <p>If you see this screen, You're properly running the server.</p>
+        <p>(If you came by double-clicking the "index" inside root, well you're not. Access with <code>http://(your ip):(port in config)</code>, or <a href="https://github.com/pap-git/SimpleWebServer">RTFM</a>)</p>
+        <br>
+        <p>You can place anything inside the root folder defined in the <code>config.json</code>. Default path is <code>(server path)/root</code>.</p>
+        <p>It is not required to define the routing inside your <code>server.js</code>. Try placing any file to the root folder, then access with http://(server)/(filename).</p>
+        <p>It will automatically route you to the file. By default, If the file is the html file, You can access it without extension.</p>
+        <p>try visiting <a href="/index">/index</a>, It will automatically send you the same page, but without extension.</p>
+        <p>(Remember: If you have file like "file1" and "file1.html" at the same time in place, It will automatically choose the "file1" instead of the html.)</p>
+    </body>
+</html>
