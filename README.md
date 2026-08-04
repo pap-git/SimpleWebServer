@@ -11,6 +11,8 @@ Basically, clone the repo, cd, install the express, and that's all.
 git clone https://github.com/pap-git/SimpleWebServer && cd SimpleWebServer && npm i
 ```
 
+to run server, `npm start`
+
 ## Settings
 
 There's `config.json` by default. if you deleted accidentally, here's the template
